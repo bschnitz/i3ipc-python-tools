@@ -1,12 +1,10 @@
-#!/usr/bin/env python3
-
 class Finder:
   def __init__(self, window):
     self.setWindow(window)
 
   def setWindow(self, window):
     self.window = window
-    self.siblings = self.window.parent.nodes
+    self.siblings = self.window.parent.nodes if self.window.parent else None
 
   def getWindow(self):
     return self.window

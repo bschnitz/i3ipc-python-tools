@@ -7,10 +7,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="i3ipct",
-    version="0.1",
+    version="0.2",
     author="Benjamin Schnitzler",
     author_email="regenbogenbauer@web.de",
-    description="Tools build up on i3ipc (focus, find in tree)",
+    description="Tools build up on i3ipc (focus, find in tree, execute)",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/bschnitz/i3ipc-python-tools",

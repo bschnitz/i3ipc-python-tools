@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from .find import Finder
 import i3ipc
 import sys

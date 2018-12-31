@@ -3,3 +3,4 @@ __pycache__
 i3ipct.egg-info/
 dist/
 build/
+experiments/
