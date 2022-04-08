@@ -1,6 +1,5 @@
 from .find import Finder
 import i3ipc
-import sys
 
 class Focus:
   def __init__(self, current_window):
@@ -31,7 +30,7 @@ class Focus:
   def focusActiveWindowIn(self, container):
     if container:
       if len(container.leaves()) > 0:
-        i3 = i3ipc.Connection()
+        i3ipc.Connection()
         focused = Finder(container).focused_leaves()
         focused[0].command('focus')
       else:
